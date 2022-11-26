@@ -1,7 +1,12 @@
 {
   "addons": {
     "{9FD229B7-1BD6-4095-965E-BE30EBFAD42E}": {
-      "updates": []
+      "updates": [
+        {
+          "version": "3.2.0",
+          "update_link": "https://raw.githubusercontent.com/manaba-enhanced-for-tsukuba/dist-firefox/main/versions/manaba_enhanced_for_tsukuba-3.2.0.xpi"
+        }
+      ]
     }
   }
 }
