@@ -7,4 +7,4 @@ if [[ -z "$new_version" ]]; then
   exit 1
 fi
 
-sed -i "s@https://raw.githubusercontent.com/manaba-enhanced-for-tsukuba/dist-firefox/main/versions/manaba_enhanced_for_tsukuba-.*.xpi@https://raw.githubusercontent.com/manaba-enhanced-for-tsukuba/dist-firefox/main/versions/manaba_enhanced_for_tsukuba-$new_version.xpi@" docs/latest/index.html README.md
+sed -i "s@https://raw.githubusercontent.com/manaba-enhanced-for-tsukuba/dist-firefox/main/versions/manaba_enhanced_for_tsukuba-.*.xpi@https://raw.githubusercontent.com/manaba-enhanced-for-tsukuba/dist-firefox/main/versions/manaba_enhanced_for_tsukuba-$new_version.xpi@" docs/latest/index.html
