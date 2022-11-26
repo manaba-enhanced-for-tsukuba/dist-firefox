@@ -5,6 +5,10 @@
         {
           "version": "3.2.0",
           "update_link": "https://raw.githubusercontent.com/manaba-enhanced-for-tsukuba/dist-firefox/main/versions/manaba_enhanced_for_tsukuba-3.2.0.xpi"
+        },
+        {
+          "version": "3.2.1",
+          "update_link": "https://raw.githubusercontent.com/manaba-enhanced-for-tsukuba/dist-firefox/main/versions/manaba_enhanced_for_tsukuba-3.2.1.xpi"
         }
       ]
     }
