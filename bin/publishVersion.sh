@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 
+set -e
+
 version=$1
 xpi_file_path=$2
-
-if ! command -v jq &> /dev/null; then
-  echo "jq must be installed." 1>&2
-  exit 1
-fi
 
 if [[ -z "$version" ]]; then
   echo "Pass version number." 1>&2
